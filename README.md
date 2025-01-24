@@ -42,7 +42,8 @@ Automate rkhunter scans using cron jobs. Example (daily at midnight):
 
 # Troubleshooting
 Warnings: Investigate any warnings in the log file.
-False Positives: If legitimate changes trigger warnings, update the file properties database:
+False Positives: If legitimate changes trigger warnings,
+update the file properties database:
 sudo rkhunter --propupd
 Logs Not Rotating: Use log rotation tools to manage /var/log/rkhunter.log.
 
